@@ -8,7 +8,7 @@ Welcome to the Real-Time Hotel Search App! This app enables users to find real-t
 
 This app allows users to effortlessly search for hotels in different cities and neighborhoods, providing up-to-date information and reviews. Leveraging the power of NVIDIA’s NeMo Guardrails and LlamaIndex, the app delivers reliable, organized insights with high efficiency and personalization.
 
-![App Demo Screenshot](#)  <!-- Replace this with the actual image path after uploading -->
+![App Demo Screenshot](#) <!-- Replace this with the actual image path after uploading -->
 
 ### Key Features
 
@@ -20,7 +20,7 @@ This app allows users to effortlessly search for hotels in different cities and 
 
 - **Frontend**: React (JavaScript)
 - **Backend**: Python (with Uvicorn, NVIDIA technologies, LlamaIndex)
-- **NVIDIA Technologies**: 
+- **NVIDIA Technologies**:
   - **NeMo Guardrails** for filtering relevant information
 - **LlamaIndex**: Organizes and structures data for quick, accurate retrieval and querying.
 
@@ -126,19 +126,19 @@ Navigate to the `BE` directory and run the backend services:
 
 - **Run `api.py` on port 8000 using Uvicorn**:
 
-   ```bash
-   cd ../BE
-   source env_requirements/bin/activate
-   uvicorn api:app --reload --loop asyncio --port 8000
-   ```
+  ```bash
+  cd ../BE
+  source env_requirements/bin/activate
+  uvicorn api:app --reload --loop asyncio --port 8000
+  ```
 
 - **Run `guardials.py` on port 8001**:
 
-   ```bash
-   source env_requirements2/bin/activate
-   python guardials.py --port 8001
-   deactivate
-   ```
+  ```bash
+  source env_requirements2/bin/activate
+  python guardials.py --port 8001
+  deactivate
+  ```
 
 #### 2. Start the Frontend
 
@@ -189,5 +189,4 @@ This project is open-source and available under the MIT License. See the [LICENS
 
 ## Contact
 
-For any inquiries, please reach out via GitHub Issues or contact me directly at [your.email@example.com](mailto:jbps.work@google.com).
-
+For any inquiries, please reach out via GitHub Issues or contact me directly at [jbps.work@google.com](mailto:jbps.work@google.com).
