@@ -1,0 +1,10 @@
+# NeMo Guardrails
+nemoguardrails
+
+# OpenAI y dotenv
+openai>=1.13.3
+python-dotenv
+
+# LangChain Core y OpenAI con restricciones de versión
+langchain-core<0.3.0,>=0.2.43
+langchain-openai<0.3

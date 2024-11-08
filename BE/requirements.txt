@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+llama-index
+nest_asyncio
+langchain
+pyyaml
+crewai
+requests
+beautifulsoup4
+duckduckgo-search
+crewai-tools

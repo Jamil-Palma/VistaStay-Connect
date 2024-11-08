@@ -1,0 +1,3 @@
+simple_search_task:
+  description: "Execute a basic web search for information on {subject} and save the content to text files."
+  expected_output: "Relevant search results, including snippets, URLs, and saving each page's content in a text file."

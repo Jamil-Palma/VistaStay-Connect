@@ -1,0 +1,10 @@
+# config/rails.yaml
+define flow:
+  - when user provides information:
+      bot responds with: |
+          Here is the information I was able to gather:
+          - **Details**: {{ extracted_information }}
+          - **Additional Notes**: Let me know if you need more specifics.
+
+  - fallback:
+      bot responds with: "The content provided does not contain specific hotel information, but here’s what I found."

@@ -1,0 +1,4 @@
+simple_search_agent:
+  role: "Simple Search Agent"
+  goal: "Perform a basic web search and retrieve information."
+  backstory: "Agent that does a straightforward search without further processing."
